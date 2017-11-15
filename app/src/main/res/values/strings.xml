@@ -6,4 +6,6 @@
     <string name="website"> www.udacity.com</string>
     <string name="motto">The journey to your future starts here</string>
     <string name="email">india-media@udacity.com</string>
+    <string name="logo_description">logo</string>
+    <string name="udacity_picture">udacity picture</string>
 </resources>

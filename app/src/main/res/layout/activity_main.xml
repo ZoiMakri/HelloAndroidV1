@@ -9,64 +9,75 @@
     <ImageView
         android:id="@+id/logoNameTop"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:src="@drawable/logotop"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        />
+        android:layout_height="50dp"
+        android:layout_marginBottom="@dimen/activity_logo_bottom_margin"
+        android:layout_marginEnd="@dimen/activity_right"
+        android:layout_marginLeft="@dimen/activity_left"
+        android:layout_marginRight="@dimen/activity_right"
+        android:layout_marginStart="@dimen/activity_left"
+        android:contentDescription="@string/logo_description"
+        android:src="@drawable/logotop" />
 
     <ImageView
         android:id="@+id/logoImage"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2"
+        android:layout_weight="1"
+        android:contentDescription="@string/udacity_picture"
         android:scaleType="centerCrop"
-        android:src="@drawable/logoimage"
-        />
+        android:src="@drawable/logoimage" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_left"
+        android:layout_marginStart="@dimen/activity_left"
+        android:layout_marginEnd="@dimen/activity_right"
+        android:layout_marginRight="@dimen/activity_right"
+        android:layout_marginTop="@dimen/activity_top_line"
         android:autoLink="map"
+        android:drawableStart="@drawable/ic_mapicon"
         android:text="@string/address"
-        android:drawableLeft="@drawable/ic_mapicon"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="12dp"
-        android:textSize="17sp"
-        tools:targetApi="jelly_bean" />
+        android:textSize="@dimen/activity_fonts" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_left"
+        android:layout_marginStart="@dimen/activity_left"
+        android:layout_marginEnd="@dimen/activity_right"
+        android:layout_marginRight="@dimen/activity_right"
+        android:layout_marginTop="@dimen/activity_between_lines"
         android:autoLink="phone"
+        android:drawableStart="@drawable/ic_phoneicon"
         android:text="@string/phone"
-        android:drawableLeft="@drawable/ic_phoneicon"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="7dp"
-        android:textSize="17sp"
-        />
+        android:textSize="@dimen/activity_fonts" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_left"
+        android:layout_marginStart="@dimen/activity_left"
+        android:layout_marginEnd="@dimen/activity_right"
+        android:layout_marginRight="@dimen/activity_right"
+        android:layout_marginTop="@dimen/activity_between_lines"
         android:autoLink="web"
+        android:drawableStart="@drawable/ic_globeicon"
         android:text="@string/website"
-        android:drawableLeft="@drawable/ic_globeicon"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="7dp"
-        android:textSize="17sp"
-        />
+        android:textSize="@dimen/activity_fonts" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:autoLink="email"
         android:text="@string/email"
-        android:drawableLeft="@drawable/ic_mailicon"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="7dp"
-        android:textSize="17sp"
-        android:layout_marginBottom="40dp"
+        android:drawableStart="@drawable/ic_mailicon"
+        android:layout_marginLeft="@dimen/activity_left"
+        android:layout_marginStart="@dimen/activity_left"
+        android:layout_marginEnd="@dimen/activity_right"
+        android:layout_marginRight="@dimen/activity_right"
+        android:layout_marginTop="@dimen/activity_between_lines"
+        android:textSize="@dimen/activity_fonts"
+        android:layout_marginBottom="@dimen/activity_bottom_line"
         />
 </LinearLayout>
